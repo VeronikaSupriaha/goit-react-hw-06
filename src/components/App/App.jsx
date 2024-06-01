@@ -6,7 +6,7 @@ import css from './App.module.css';
 
 export default function App() {
   return (
-    <div>
+    <div className={css.container}>
       <h1 className={css.header}>Phonebook</h1>
       <ContactForm />
       <SearchBox />
